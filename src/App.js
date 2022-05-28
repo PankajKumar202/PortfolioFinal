@@ -52,7 +52,7 @@ class PortFolio extends Component {
       <Fragment>
         <div className="Wrapper">
           <div className="intro" id="intro1">
-            <a href="https://drive.google.com/file/d/16rm0LLclWW33JnktoQPAsqCcTZtW2O89/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/16rm0LLclWW33JnktoQPAsqCcTZtW2O89/view?usp=sharing" target="_blank"  rel="noreferrer">
               <button id="resbtn" type="button" className="btn" >Resume</button></a>
             <img id="profileImg" src="https://i.ibb.co/84Pkd43/Profile2.jpg" alt="Profile2" border="0" />
             <h1 className="intro-heading ">
@@ -71,19 +71,19 @@ class PortFolio extends Component {
             </p>
             <p className="icons">
 
-              <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noreferrer"><img
                 src="https://i.ibb.co/CPKx9gS/gmail.png" alt="gmail" title="parya209@gmail.com" /></a>
 
-              <a href="https://instagram.com/pankaj_arya_99?utm_medium=copy_link" target="_blank"><img
+              <a href="https://instagram.com/pankaj_arya_99?utm_medium=copy_link" target="_blank" rel="noreferrer"><img
                 src="https://i.ibb.co/5FSCVw8/instagram-logo.png" alt="instagram-logo"
                 title="Pankaj_arya_99" /></a>
 
-              <a href="https://github.com/PankajKumar202" target="_blank"><img
+              <a href="https://github.com/PankajKumar202" target="_blank" rel="noreferrer"><img
                 src="https://i.ibb.co/QQsjKHS/github.png" alt="github" border="0" title="Github Profile" /></a>
-              <a href="https://www.linkedin.com/in/pankaj-kumar-314b5a111/" target="_blank"><img
+              <a href="https://www.linkedin.com/in/pankaj-kumar-314b5a111/" target="_blank" rel="noreferrer"><img
                 src="https://i.ibb.co/tYPx2cG/linkedin.png" alt="linkedin" border="0"
                 title="Linkedin Profile" /></a>
-              <a href="https://www.facebook.com/pankaj.arya.56808" target="_blank"><img
+              <a href="https://www.facebook.com/pankaj.arya.56808" target="_blank" rel="noreferrer"><img
                 src="https://i.ibb.co/g6xZv5K/facebook.png" alt="facebook" border="0"
                 title="Facebook Profile" /></a>
 
@@ -121,9 +121,9 @@ class PortFolio extends Component {
                     <a className="nav-link active" href="#Projects">Projects</a>
                   </li>
                   <li className="nav-item" >
-                    <a className="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button className="nav-link active dropdown-toggle" id="navbarDropdownMenuLink"  data-bs-toggle="dropdown" aria-expanded="false">
                         Social
-                    </a>
+                    </button>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a className="dropdown-item" href="https://mail.google.com/mail/u/0/#inbox?compose=new">Gmail</a></li>
                       <li><a className="dropdown-item" href="https://instagram.com/pankaj_arya_99?utm_medium=copy_link">Instagram</a></li>
@@ -158,8 +158,8 @@ class PortFolio extends Component {
               alt="Css3" />
             <img src="https://i.ibb.co/kcyyHNC/icons8-javascript-240.png" alt="" />
             <img src="https://i.ibb.co/TwjyqvQ/icons8-bootstrap-100.png" alt="" />
-            <img src="https://img.icons8.com/color/144/000000/nodejs.png" />
-            <img src="https://img.icons8.com/color/144/000000/mongodb.png" />
+            <img src="https://img.icons8.com/color/144/000000/nodejs.png" alt=""/>
+            <img src="https://img.icons8.com/color/144/000000/mongodb.png" alt=""/>
             <img src="https://i.ibb.co/q9RVSZ8/1174949-js-react-js-logo-react-react-native-icon.png"
               alt="1174949-js-react-js-logo-react-react-native-icon" border="0" />
 
@@ -177,7 +177,7 @@ class PortFolio extends Component {
             <div className="tileContainer">
               {/* <!-- front side --> */}
               <div className="img-container">
-                <a href="https://github.com/PankajKumar202/Lifyplus.git" target='_blank'><img
+                <a href="https://github.com/PankajKumar202/Lifyplus.git" target='_blank' rel="noreferrer"><img
                   src="https://i.ibb.co/9vfFcs0/mp.jpg" alt="mp" border="0" /></a><br />
               </div>
               {/* <!--back side --> */}
@@ -197,9 +197,10 @@ class PortFolio extends Component {
 
 
             {/* </div> */}
+            
             <div className="tileContainer">
               <div className="img-container">
-                <a href="https://zomatopk.netlify.app" target="_blank"><img
+                <a href="https://zomatopk.netlify.app" target="_blank" rel="noreferrer"><img
                   src="https://i.ibb.co/ZT1hwbd/Capture.jpg" alt="Capture" border="0" /></a><br />
               </div>
 
@@ -215,7 +216,7 @@ class PortFolio extends Component {
             </div>
             <div className="tileContainer">
               <div className="img-container">
-                <a href="https://brewmusefspk.netlify.app" target="_blank"><img
+                <a href="https://brewmusefspk.netlify.app" target="_blank" rel="noreferrer"><img
                   src="https://i.ibb.co/F4zKMzz/Capture.jpg" alt="Capture" border="0" /></a><br />
               </div>
               <div className="Tile-Component2">
@@ -260,6 +261,7 @@ class PortFolio extends Component {
             <div id="map">
 
               <iframe
+              title='location'
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.776447900474!2d77.16313531440957!3d28.726226186586484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0196c89079b3%3A0xc10154ba2e6a8db!2sA%20Block%20Rd%2C%20Bhalswa%20Jahangirpuri%2C%20Jahangirpuri%2C%20Delhi%2C%20110033!5e0!3m2!1sen!2sin!4v1637658498896!5m2!1sen!2sin"
                 width="600" height="600" style={{ border: "0" }} allowFullScreen="" loading="lazy"></iframe>
 
